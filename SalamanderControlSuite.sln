@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCS", "SCS.csproj", "{5E21B6DD-6399-43A3-AAA0-902240E3B0BC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{F145E94F-F5E0-4D3F-9D99-8B1447FBAF18}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicLibrary", "MagicLibrary\MagicLibrary.csproj", "{92F94EA0-9910-4895-B8A1-FED1543A9DA1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		StrongMagic = StrongMagic
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5E21B6DD-6399-43A3-AAA0-902240E3B0BC}.Debug.ActiveCfg = Debug|.NET
+		{5E21B6DD-6399-43A3-AAA0-902240E3B0BC}.Debug.Build.0 = Debug|.NET
+		{5E21B6DD-6399-43A3-AAA0-902240E3B0BC}.Release.ActiveCfg = Release|.NET
+		{5E21B6DD-6399-43A3-AAA0-902240E3B0BC}.Release.Build.0 = Release|.NET
+		{5E21B6DD-6399-43A3-AAA0-902240E3B0BC}.StrongMagic.ActiveCfg = Release|.NET
+		{5E21B6DD-6399-43A3-AAA0-902240E3B0BC}.StrongMagic.Build.0 = Release|.NET
+		{F145E94F-F5E0-4D3F-9D99-8B1447FBAF18}.Debug.ActiveCfg = Debug
+		{F145E94F-F5E0-4D3F-9D99-8B1447FBAF18}.Release.ActiveCfg = Release
+		{F145E94F-F5E0-4D3F-9D99-8B1447FBAF18}.StrongMagic.ActiveCfg = Release
+		{F145E94F-F5E0-4D3F-9D99-8B1447FBAF18}.StrongMagic.Build.0 = Release
+		{92F94EA0-9910-4895-B8A1-FED1543A9DA1}.Debug.ActiveCfg = Debug|.NET
+		{92F94EA0-9910-4895-B8A1-FED1543A9DA1}.Debug.Build.0 = Debug|.NET
+		{92F94EA0-9910-4895-B8A1-FED1543A9DA1}.Release.ActiveCfg = Release|.NET
+		{92F94EA0-9910-4895-B8A1-FED1543A9DA1}.Release.Build.0 = Release|.NET
+		{92F94EA0-9910-4895-B8A1-FED1543A9DA1}.StrongMagic.ActiveCfg = StrongMagic|.NET
+		{92F94EA0-9910-4895-B8A1-FED1543A9DA1}.StrongMagic.Build.0 = StrongMagic|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<salamandercs>
+  <networks scaninterval="0">
+  </networks>
+  <hosts>
+    <folder name="Accounts">
+      <host hostname="dean" screen="0" password="">James Dean</host>
+      <host hostname="192.168.0.64" screen="0" password="">Lawrence Duncan</host>
+    </folder>
+    <folder name="Development">
+      <folder name="Programmers">
+        <host hostname="andres" screen="0" password="">Alex Andres</host>
+        <host hostname="mantle" screen="0" password="">Jason Mantle</host>
+      </folder>
+      <folder name="Testing">
+        <host hostname="jung" screen="0" password="">Ho Jung</host>
+      </folder>
+      <folder name="Sales">
+        <host hostname="parsons" screen="0" password="">Stuart Parsons</host>
+        <host hostname="smith" screen="0" password="">Phil Smith</host>
+      </folder>
+      <host hostname="paxon" screen="0" password="">Walter Paxon</host>
+    </folder>
+    <host hostname="hotdesk1" screen="0" password="">Hot Desk 1</host>
+    <host hostname="hotdesk2" screen="0" password="">Hot Desk 2</host>
+    <host hostname="hotdesk3" screen="0" password="">Hot Desk 3</host>
+  </hosts>
+  <vnc>
+    <graphics>
+      <drawingType>gdiplus</drawingType>
+      <nrOfViews>1</nrOfViews>
+    </graphics>
+    <decoders>
+      <decoder>VNCManager.RFBDrawing.UpdateDecoders.CopyRectDecoder</decoder>
+      <decoder>VNCManager.RFBDrawing.UpdateDecoders.ExtendedHexitleDecoder</decoder>
+      <decoder>VNCManager.RFBDrawing.UpdateDecoders.StandardHexitleDecoder</decoder>
+      <decoder>VNCManager.RFBDrawing.UpdateDecoders.RREDecoder</decoder>
+      <decoder>VNCManager.RFBDrawing.UpdateDecoders.CoRREDecoder</decoder>
+      <decoder>VNCManager.RFBDrawing.UpdateDecoders.ZlibEncDecoder</decoder>
+      <decoder>VNCManager.RFBDrawing.UpdateDecoders.RawDecoder</decoder>
+    </decoders>
+  </vnc>
+</salamandercs>
